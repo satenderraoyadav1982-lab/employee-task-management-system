@@ -1,0 +1,183 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8F9FF;
+    margin: 0;
+}
+#home_page{
+    background-color: #FFD6A5;
+    width: 350px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+#login_home_page{
+    background-color:#81CACF;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+#login_home_page input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#login_home_page button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+}
+.homebtn{
+    background-color: red !important;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+}
+#register_home_page{
+    background-color: #81CACF;
+    top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    height:45vh;
+    width: 50vw;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #245b63;
+    font-family: Arial, sans-serif;
+}
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #d8ffd8;
+    padding: 12px 20px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.header-left h3{
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    white-space: nowrap;
+}
+.header-right{
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    gap: 15px;
+    white-space: nowrap;
+}
+.header-right span{
+    display: inline-block;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #7ac2fa;
+}
+
+#left_sidebar {
+    position: fixed;   /*sticks to screen */
+    top: 90px;            /* top corner */
+    left: 0;           /* left corner */
+} 
+
+#left_sidebar {
+    width: 300px;
+    background: #2c3e50;
+    min-height: 100vh;
+}
+
+/* Flex column */
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Each item */
+.menu a {
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc; /* line */
+}
+
+/* Hover */
+.menu a:hover {
+    background: #1abc9c;
+}
+
+#right_sidebar {
+    position: fixed;   /*sticks to screen */
+    top: 80px;            /* top corner */
+    left: 302px;           /* left corner */
+} 
+
+/* Right sidebar (main content area) */
+#right_sidebar {
+    padding: 20px;
+}
+
+/* Instructions heading */
+#right_sidebar h4 {
+    background: #ffffff;
+    padding: 10px 15px;
+    border-left: 5px solid #1abc9c;
+    border-radius: 5px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    width: fit-content;
+}
+
+/* Instructions list container */
+#right_sidebar ul {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    list-style: none;
+}
+
+/* Each instruction */
+#right_sidebar li {
+    padding: 10px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+    color: #444;
+    position: relative;
+}
+
+/* Remove last line */
+#right_sidebar li:last-child {
+    border-bottom: none;
+}
+
+/* Add icon before each line */
+#right_sidebar li::before {
+    content: "✔";
+    color: #1abc9c;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Hover effect */
+#right_sidebar li:hover {
+    background: #f9f9f9;
+    border-radius: 5px;
+}
