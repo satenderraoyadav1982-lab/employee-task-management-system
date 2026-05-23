@@ -29,12 +29,7 @@ A web-based Employee Task Management System developed using PHP and MySQL to man
 3. Place project folder inside htdocs
 4. Start Apache and MySQL
 5. Run localhost/project-folder-name
-
-## Future Enhancements
-- Email Notifications
-- Attendance Module
-- Report Generation
-
+6. 
 ## 📸 Screenshots
 
 ### Login Page
@@ -45,3 +40,10 @@ A web-based Employee Task Management System developed using PHP and MySQL to man
 
 ### Task Management
 ![Task Management](/screenshot/task-management.png/task-management.png)
+
+
+## Future Enhancements
+- Email Notifications
+- Attendance Module
+- Report Generation
+
