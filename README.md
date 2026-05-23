@@ -34,3 +34,14 @@ A web-based Employee Task Management System developed using PHP and MySQL to man
 - Email Notifications
 - Attendance Module
 - Report Generation
+
+## 📸 Screenshots
+
+### Login Page
+![Login Page](./screenshot/login-page.png)
+
+### Admin Dashboard
+![Admin Dashboard](./screenshot/admin-dashboard.png)
+
+### Task Management
+![Task Management](./screenshot/task-management.png)
