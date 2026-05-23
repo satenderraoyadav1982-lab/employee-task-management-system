@@ -38,10 +38,10 @@ A web-based Employee Task Management System developed using PHP and MySQL to man
 ## 📸 Screenshots
 
 ### Login Page
-![Login Page](/screenshot/login-page.png)
+![Login Page](/screenshot/login-page.png/login-page.png)
 
 ### Admin Dashboard
-![Admin Dashboard](/screenshot/admin-dashboard.png)
+![Admin Dashboard](/screenshot/admin-dashboard.png/admin-dashboard.png)
 
 ### Task Management
-![Task Management](/screenshot/task-management.png)
+![Task Management](/screenshot/task-management.png/task-management.png)
